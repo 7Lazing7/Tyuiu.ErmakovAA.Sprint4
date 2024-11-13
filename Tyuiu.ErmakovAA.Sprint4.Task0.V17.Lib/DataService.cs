@@ -14,8 +14,4 @@ namespace Tyuiu.ErmakovAA.Sprint4.Task0.V17.Lib
         }
     }
 }
-/*
-for (int i = 0; i < array.Length - 1; i++)
-{
 
-}*/
