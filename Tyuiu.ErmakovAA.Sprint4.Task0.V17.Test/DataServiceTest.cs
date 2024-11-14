@@ -10,7 +10,7 @@ namespace Tyuiu.ErmakovAA.Sprint4.Task0.V17.Test
             DataService ds = new DataService();
             
             int[] numsArray = new int[] { 4, 8, 7, 6, 5, 8, 2, 4, 3, 2 };
-            Assert.AreEqual(82, ds.GetSumEvenArrEl(numsArray));
+            Assert.AreEqual(34, ds.GetSumEvenArrEl(numsArray));
 
         }
     }
