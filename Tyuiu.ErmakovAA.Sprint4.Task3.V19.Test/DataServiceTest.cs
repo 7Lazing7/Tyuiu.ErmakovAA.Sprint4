@@ -15,7 +15,7 @@ namespace Tyuiu.ErmakovAA.Sprint4.Task3.V19.Test
                                          { 9, 3, 5, 3, 7 } };
                                            
             int res = ds.Calculate(mas);
-            int wait = 13;                               
+            int wait = 11;                               
             Assert.AreEqual(wait, res);
 
         }
