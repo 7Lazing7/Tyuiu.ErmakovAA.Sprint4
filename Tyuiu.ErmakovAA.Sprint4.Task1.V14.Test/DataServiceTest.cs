@@ -8,8 +8,8 @@ namespace Tyuiu.ErmakovAA.Sprint4.Task1.V14.Test
         public void ValidCalculate()
         {
             DataService ds = new DataService();
-            int[] numsArray = new int[] { 2, 6, 5, 5, 1, 5, 6, 5, 5, 5, 1, 5, 3, 6, 6, 1, 6 };
-            Assert.AreEqual(ds.Calculate(numsArray), 32);
+            int[] numsArray = new int[] { 1, 5, 3, 6, 5, 4, 8, 6, 8, 4, 2, 3, 1 };
+            Assert.AreEqual(ds.Calculate(numsArray), 18);
 
         }
     }
