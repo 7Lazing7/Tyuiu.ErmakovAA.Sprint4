@@ -6,12 +6,26 @@ namespace TEST
     {
         static void Main(string[] args)
         {
-            string[] data = { "Январь", "Февраль", "Март", "Апрель", "Май", "Июнь" };
-            foreach (string item in data)
+            string str = "945218654";
+            int[,] matrix = new int[3, 3];
+            int sum = 0;
+            for (int i = 0; i < 3; i++)
+            {
 
-                if (item.Length == 7)
+                for (int j = 0; j < 3; j++)
+                {
 
-                    Console.WriteLine(item);
+                    matrix[i, j] = int.Parse(str[i * 3 + j].ToString());
+                    if (i == 2)
+                    {
+
+                        sum += matrix[i, j];
+                    }
+                }
+
+            }
+
+        Console.WriteLine(sum);
         }
     }
 }
